@@ -17,9 +17,11 @@ export default function Login() {
       <a href="#">Esqueci minha Senha</a>
       <h3>Não tem uma conta?</h3>
 
-       <a href="/cadastro" className={styles.buttonLogin}>
-        Crie sua conta
-       </a>
+      <Link href="/cadastro">
+        <a className={styles.buttonLogin}>
+          Crie sua conta
+        </a>
+      </Link>
     </div>
   )
 };
