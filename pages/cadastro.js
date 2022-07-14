@@ -1,6 +1,6 @@
 import styles from '../styles/Login.module.css'
 
-export default function Login() {
+export default function Cadastro() {
   return (
     <div className={styles.container}>
       <img src="assets/logo.png" alt="" />
